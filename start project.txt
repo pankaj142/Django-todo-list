@@ -1,0 +1,19 @@
+
+1. start virtual environment
+   venv/Scripts/activate
+2. start project 
+   python manage.py runserver
+
+
+
+#create django project
+   django-admin startproject NameProject
+
+#create app 
+   python manage.py startapp appName
+
+#migrate commands
+
+1. python manage.py makemigrations appName
+2. python manage.py sqlmigrate appName scriptFileName
+3. python manage.py migrate
